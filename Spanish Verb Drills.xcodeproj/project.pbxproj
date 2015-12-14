@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1870E2EA1C1E824D00903CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870E2E91C1E824D00903CB4 /* AppDelegate.swift */; };
+		1870E2EF1C1E824D00903CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870E2ED1C1E824D00903CB4 /* Main.storyboard */; };
+		1870E2F11C1E824D00903CB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1870E2F01C1E824D00903CB4 /* Images.xcassets */; };
+		1870E2F41C1E824D00903CB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1870E2F21C1E824D00903CB4 /* LaunchScreen.xib */; };
+		1870E3001C1E824E00903CB4 /* Spanish_Verb_DrillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870E2FF1C1E824E00903CB4 /* Spanish_Verb_DrillsTests.swift */; };
+		1870E30A1C1E842200903CB4 /* lessonSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870E3091C1E842200903CB4 /* lessonSelectViewController.swift */; };
+		1870E30E1C1E989600903CB4 /* verbSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870E30D1C1E989600903CB4 /* verbSelectViewController.swift */; };
+		1870E3101C1E9EA000903CB4 /* answerSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870E30F1C1E9EA000903CB4 /* answerSelectViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1870E2FA1C1E824E00903CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1870E2DC1C1E824D00903CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1870E2E31C1E824D00903CB4;
+			remoteInfo = "Spanish Verb Drills";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1870E2E41C1E824D00903CB4 /* Spanish Verb Drills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spanish Verb Drills.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1870E2E81C1E824D00903CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870E2E91C1E824D00903CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1870E2EE1C1E824D00903CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1870E2F01C1E824D00903CB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1870E2F31C1E824D00903CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1870E2F91C1E824E00903CB4 /* Spanish Verb DrillsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spanish Verb DrillsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1870E2FE1C1E824E00903CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870E2FF1C1E824E00903CB4 /* Spanish_Verb_DrillsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spanish_Verb_DrillsTests.swift; sourceTree = "<group>"; };
+		1870E3091C1E842200903CB4 /* lessonSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lessonSelectViewController.swift; sourceTree = "<group>"; };
+		1870E30D1C1E989600903CB4 /* verbSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verbSelectViewController.swift; sourceTree = "<group>"; };
+		1870E30F1C1E9EA000903CB4 /* answerSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = answerSelectViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1870E2E11C1E824D00903CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870E2F61C1E824E00903CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1870E2DB1C1E824D00903CB4 = {
+			isa = PBXGroup;
+			children = (
+				1870E2E61C1E824D00903CB4 /* Spanish Verb Drills */,
+				1870E2FC1C1E824E00903CB4 /* Spanish Verb DrillsTests */,
+				1870E2E51C1E824D00903CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1870E2E51C1E824D00903CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1870E2E41C1E824D00903CB4 /* Spanish Verb Drills.app */,
+				1870E2F91C1E824E00903CB4 /* Spanish Verb DrillsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1870E2E61C1E824D00903CB4 /* Spanish Verb Drills */ = {
+			isa = PBXGroup;
+			children = (
+				1870E2E91C1E824D00903CB4 /* AppDelegate.swift */,
+				1870E3091C1E842200903CB4 /* lessonSelectViewController.swift */,
+				1870E30D1C1E989600903CB4 /* verbSelectViewController.swift */,
+				1870E30F1C1E9EA000903CB4 /* answerSelectViewController.swift */,
+				1870E2ED1C1E824D00903CB4 /* Main.storyboard */,
+				1870E2F01C1E824D00903CB4 /* Images.xcassets */,
+				1870E2F21C1E824D00903CB4 /* LaunchScreen.xib */,
+				1870E2E71C1E824D00903CB4 /* Supporting Files */,
+			);
+			path = "Spanish Verb Drills";
+			sourceTree = "<group>";
+		};
+		1870E2E71C1E824D00903CB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1870E2E81C1E824D00903CB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1870E2FC1C1E824E00903CB4 /* Spanish Verb DrillsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1870E2FF1C1E824E00903CB4 /* Spanish_Verb_DrillsTests.swift */,
+				1870E2FD1C1E824E00903CB4 /* Supporting Files */,
+			);
+			path = "Spanish Verb DrillsTests";
+			sourceTree = "<group>";
+		};
+		1870E2FD1C1E824E00903CB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1870E2FE1C1E824E00903CB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1870E2E31C1E824D00903CB4 /* Spanish Verb Drills */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1870E3031C1E824E00903CB4 /* Build configuration list for PBXNativeTarget "Spanish Verb Drills" */;
+			buildPhases = (
+				1870E2E01C1E824D00903CB4 /* Sources */,
+				1870E2E11C1E824D00903CB4 /* Frameworks */,
+				1870E2E21C1E824D00903CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spanish Verb Drills";
+			productName = "Spanish Verb Drills";
+			productReference = 1870E2E41C1E824D00903CB4 /* Spanish Verb Drills.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1870E2F81C1E824E00903CB4 /* Spanish Verb DrillsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1870E3061C1E824E00903CB4 /* Build configuration list for PBXNativeTarget "Spanish Verb DrillsTests" */;
+			buildPhases = (
+				1870E2F51C1E824E00903CB4 /* Sources */,
+				1870E2F61C1E824E00903CB4 /* Frameworks */,
+				1870E2F71C1E824E00903CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1870E2FB1C1E824E00903CB4 /* PBXTargetDependency */,
+			);
+			name = "Spanish Verb DrillsTests";
+			productName = "Spanish Verb DrillsTests";
+			productReference = 1870E2F91C1E824E00903CB4 /* Spanish Verb DrillsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1870E2DC1C1E824D00903CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Brandon Bosse";
+				TargetAttributes = {
+					1870E2E31C1E824D00903CB4 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 76MDW4VGLR;
+					};
+					1870E2F81C1E824E00903CB4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1870E2E31C1E824D00903CB4;
+					};
+				};
+			};
+			buildConfigurationList = 1870E2DF1C1E824D00903CB4 /* Build configuration list for PBXProject "Spanish Verb Drills" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1870E2DB1C1E824D00903CB4;
+			productRefGroup = 1870E2E51C1E824D00903CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1870E2E31C1E824D00903CB4 /* Spanish Verb Drills */,
+				1870E2F81C1E824E00903CB4 /* Spanish Verb DrillsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1870E2E21C1E824D00903CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870E2EF1C1E824D00903CB4 /* Main.storyboard in Resources */,
+				1870E2F41C1E824D00903CB4 /* LaunchScreen.xib in Resources */,
+				1870E2F11C1E824D00903CB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870E2F71C1E824E00903CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1870E2E01C1E824D00903CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870E3101C1E9EA000903CB4 /* answerSelectViewController.swift in Sources */,
+				1870E30A1C1E842200903CB4 /* lessonSelectViewController.swift in Sources */,
+				1870E2EA1C1E824D00903CB4 /* AppDelegate.swift in Sources */,
+				1870E30E1C1E989600903CB4 /* verbSelectViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870E2F51C1E824E00903CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870E3001C1E824E00903CB4 /* Spanish_Verb_DrillsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1870E2FB1C1E824E00903CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1870E2E31C1E824D00903CB4 /* Spanish Verb Drills */;
+			targetProxy = 1870E2FA1C1E824E00903CB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1870E2ED1C1E824D00903CB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1870E2EE1C1E824D00903CB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1870E2F21C1E824D00903CB4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1870E2F31C1E824D00903CB4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1870E3011C1E824E00903CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1870E3021C1E824E00903CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1870E3041C1E824E00903CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Spanish Verb Drills/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1870E3051C1E824E00903CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Spanish Verb Drills/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1870E3071C1E824E00903CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spanish Verb DrillsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spanish Verb Drills.app/Spanish Verb Drills";
+			};
+			name = Debug;
+		};
+		1870E3081C1E824E00903CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spanish Verb DrillsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spanish Verb Drills.app/Spanish Verb Drills";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1870E2DF1C1E824D00903CB4 /* Build configuration list for PBXProject "Spanish Verb Drills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1870E3011C1E824E00903CB4 /* Debug */,
+				1870E3021C1E824E00903CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1870E3031C1E824E00903CB4 /* Build configuration list for PBXNativeTarget "Spanish Verb Drills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1870E3041C1E824E00903CB4 /* Debug */,
+				1870E3051C1E824E00903CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1870E3061C1E824E00903CB4 /* Build configuration list for PBXNativeTarget "Spanish Verb DrillsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1870E3071C1E824E00903CB4 /* Debug */,
+				1870E3081C1E824E00903CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1870E2DC1C1E824D00903CB4 /* Project object */;
+}
